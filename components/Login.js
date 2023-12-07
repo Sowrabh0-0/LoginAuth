@@ -39,7 +39,7 @@ const LoginForm = () => {
         console.log(token)
         localStorage.setItem("token", token)
         localStorage.setItem("userName",name)
-        window.location.href = "/"
+        window.location.href = "https://amritameets.tech"
     }
   };
     
